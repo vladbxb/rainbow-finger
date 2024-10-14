@@ -9,14 +9,14 @@ if [ "$1" != 'c' ]
 then
     FINGER_OUTPUT=$(finger $(whoami))
     RANDOM_NUMBER=$((RANDOM % 7 + 1))
-    echo -e "\e[1;3${RANDOM_NUMBER}m $FINGER_OUTPUT \e[0m"
+    echo -e "\e[3${RANDOM_NUMBER}m $FINGER_OUTPUT \e[0m"
     sleep 0.05
 else
     while [ true ]
     do
         FINGER_OUTPUT=$(finger $(whoami))
         RANDOM_NUMBER=$((RANDOM % 7 + 1)) 
-        echo -e "\e[1;3${RANDOM_NUMBER}m $FINGER_OUTPUT \e[0m"
+        echo -e "\e[3${RANDOM_NUMBER}m $FINGER_OUTPUT \e[0m"
         sleep 0.05
     done
 fi
