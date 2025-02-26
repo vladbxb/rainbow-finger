@@ -1,6 +1,6 @@
-# cel mai haladit script ever
+# Un alt mod de a rula finger... I guess
 
-script inceput ca o gluma la facultate
+Script inceput ca o gluma la facultate
 
-executa scriptul urmat de un caracter 'c' pentru efect curcubeu
-*exemplu*: ./o_da.sh c
+Executati scriptul urmat de un caracter 'c' pentru efect curcubeu
+*exemplu*: ./rf.sh c
